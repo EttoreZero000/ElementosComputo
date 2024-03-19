@@ -1,0 +1,112 @@
+\documentclass[titlepage,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{tocloft}
+\usepackage[margin=0.5in]{geometry} % Ajustar el margen
+\setlength{\parindent}{0pt} %Eliminar Sangria
+
+
+\pgfplotsset{compat=1.18}
+
+\title{
+\fontsize{50pt}{20pt}\textbf{eFolio Latex}\\
+Matematica General
+}
+\author{
+Nombre:\\
+\fontsize{15pt}{20pt}\textbf{Héctor David Leiva Gamboa}\\
+Carnet:\\ 
+2024086486
+}
+\date{
+\fontsize{10pt}{20pt}29 de febrero 2024
+}
+
+\linespread{1.5}
+
+\renewcommand{\cftsecfont}{\normalfont\Large\bfseries} % Estilo para secciones
+\renewcommand{\cftsubsecfont}{\normalfont\itshape}       % Estilo para subsecciones
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduccion al concepto de funcion}
+\subsection{Explicacion de funcion}
+En matemáticas, una función es una regla que asocia cada elemento de un conjunto de entrada (dominio) con exactamente un elemento de un conjunto de salida (codominio), de manera única. Cada elemento en el dominio tiene asignado un único valor en el codominio.
+\subsection{Para cada una de las siguientes relaciones indique cuales son funciones y justifique.}
+a \textit{R} = {(1,-2),(2,-3)(-2,2),(0,2),(-3,3)}\\
+b \textit{R} = {(-1,-2),(2,-3)(2,2),(0,2),(-3,3)}\\
+c \textit{R} = {(1,-2),(2,-3)(-2,2),(0,2),(-3,3),(0,1)}\\
+d \textit{R} = {(1,-2),(2,-3)(-1,2),(0,2),(-3,3),(-1,-1)}
+
+El único conjunto digamos que es función es el  \textit{a} ya que el número que representa la x (dominio) aparece una vez con un unico y (ámbitos), los demás casos \textit{b, c, d} tiene por lo menos un dominio con dos ámbitos y esto es incoherente con lo que es una función\\
+\subsection{Determine el dominio de cada una de las siguientes funciones. Utilice el
+lenguaje correcto de conjunto para indicar el dominio.}
+\setlength{\jot}{1em}
+\begin{align*}
+    a \textit{ f(x)} &= \frac{1}{x^2-x}\\
+    b \textit{ f(x)} &= \sqrt{9-x^2}\\
+    c \textit{ f(x)} &= \frac{x}{\sqrt{x+1}}\\
+    d \textit{ f(x)} &= \frac{x}{|x|-4}\\
+    e \textit{ f(x)} &= \frac{x}{|x-1|-1}
+\end{align*}
+
+\newpage
+
+\begin{align*}
+    \textcolor{red}{a \textit{ f(x)} = \frac{1}{x^2-x}}\\
+    x^2-x \neq0\\
+    x(x-1)\neq0\\
+    x\neq0\ \ y\ \ x-1\neq0\\
+    x\neq0\ \ y\ \ x\neq1\\
+    \textcolor{blue}{D_f = \mathbb{R} - \{0,1\} }
+\end{align*}\\
+\begin{align*}
+    \textcolor{red}{b \textit{ f(x)} = \sqrt{9-x^2}}\\
+    \sqrt{9-x^2} \geq 0\\
+    9-x^2 \geq 0\\
+    9\geq x^2\\
+    \sqrt{9} \geq \sqrt{x^2}\\
+    3 \geq |x|\\
+    3 \geq x \ \ y \ \ x \geq -3\\
+    \textcolor{blue}{D_f =\ [-3,3] }
+\end{align*}
+\newpage    
+\begin{align*}
+    \textcolor{red}{c \textit{ f(x)} = \frac{x}{\sqrt{x+1}}}\\
+    \sqrt{x+1} \geq 0 \ \ y \ \ x+1\neq 0\\
+    x+1>0\\
+    x>-1\\
+    \textcolor{blue}{D_f =\ -1,+\infty }\\
+\end{align*}
+\begin{align*}
+    \textcolor{red}{d \textit{ f(x)} = \frac{x}{|x|-4}}\\
+    |x|-4\neq 0\\
+    |x|\neq 4\\
+    x\neq -4 \ \ y \ \ x\neq 4\\
+    \textcolor{blue}{D_f = \mathbb{R} - \{-4,4\} }\\
+\end{align*}
+\begin{align*}
+    \textcolor{red}{e \textit{ f(x)} = \frac{x}{|x-1|-1}}\\
+    |x-1|-1\neq 0\\
+    |x-1|\neq 1\\
+    x-1\neq 1 \ \ y \ \ -(x-1)\neq 1\\
+    x \neq 2 \ \ y \ \ -x+1\neq 1\\
+    x \neq 2 \ \ y \ \ -x\cdot-1\neq 0\cdot-1\\
+    x \neq 2 \ \ y \ \ x\neq 0\\
+    \textcolor{blue}{D_f = \mathbb{R} - \{0,2\} }
+\end{align*}
+
+
+
+\end{document}

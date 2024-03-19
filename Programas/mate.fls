@@ -1,0 +1,15 @@
+PWD C:\Users\UsuarioFinal\OneDrive - Estudiantes ITCR\Datos adjuntos\Semestre 1\Elementos De Computacion GR 6\Programas
+INPUT C:\Users\UsuarioFinal\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\UsuarioFinal\OneDrive - Estudiantes ITCR\Datos adjuntos\Semestre 1\Elementos De Computacion GR 6\Programas\mate.tex
+OUTPUT mate.log
+INPUT C:\Users\UsuarioFinal\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\UsuarioFinal\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\mate.aux
+INPUT .\mate.aux
+INPUT mate.aux
+OUTPUT mate.aux
+OUTPUT mate.pdf
+INPUT C:\Users\UsuarioFinal\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT mate.aux
+INPUT C:\Users\UsuarioFinal\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\UsuarioFinal\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
