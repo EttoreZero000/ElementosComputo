@@ -161,9 +161,11 @@ def ingresoImprecioAux(pingreso, pcantidad, pdato, pcolor):
 def ingresoImprecion():
     """
     Función para la entrada de datos y la impresión de estos en una tabla
+
     Parámetros:
     Returns:
     Salida: Una tabla con los datos ordenados
+
     Función que se llama dentro:
     ingresoImprecioAux()
     """
@@ -178,8 +180,8 @@ def ingresoImprecion():
             print(ingresoImprecioAux(ingreso, cantidad, tipo, 1))
         elif ingreso == 1:
             tipo = int(input("¿Cuál es tu tipo de impresión?:\n1.Papel tradicional.\n2.Papel Couché.\n3.Papel autoadhesivo.\n"))
-            color = int(input("¿Lo quieres a \n1.Blanco y negro\n2.Color\n"))
             cantidad = int(input("¿Cantidad de hojas para imprimir?\n"))
+            color = int(input("¿Lo quieres a \n1.Blanco y negro\n2.Color\n"))
             print(ingresoImprecioAux(ingreso, cantidad, tipo, color))
     except ValueError:
         print("Debe ingresar un número entero válido!!")

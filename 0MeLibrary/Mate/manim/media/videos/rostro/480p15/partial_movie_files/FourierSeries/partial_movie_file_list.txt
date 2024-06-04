@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/UsuarioFinal/OneDrive - Estudiantes ITCR/Datos adjuntos/Semestre 1/Elementos De Computacion GR 6/0MeLibrary/Mate/manim/media/videos/rostro/480p15/partial_movie_files/FourierSeries/1185818338_1815950923_4197891926.mp4'

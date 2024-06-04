@@ -1,0 +1,18 @@
+Índice: 0
+Datos del personaje:
+ID: 1, Nombre: Tracer, Tipo: 2, Habilidades: ['Ráfaga', 'Recarga temporal'], Vida: 545, Danno Principal: 150, Estado: True
+Índice: 1
+Datos del personaje:
+ID: 2, Nombre: Reinhardt, Tipo: 1, Habilidades: ['Martillo de fuego', 'Carga'], Vida: -53, Danno Principal: 300, Estado: False
+Índice: 2
+Datos del personaje:
+ID: 3, Nombre: Mercy, Tipo: 3, Habilidades: ['Resurrección', 'Rayo curativo'], Vida: 658, Danno Principal: 200, Estado: True
+Índice: 3
+Datos del personaje:
+ID: 4, Nombre: Genji, Tipo: 2, Habilidades: ['Shuriken', 'Deflect'], Vida: 546, Danno Principal: 200, Estado: True
+Índice: 4
+Datos del personaje:
+ID: 5, Nombre: D.Va, Tipo: 1, Habilidades: ['Cañones de fusión', 'Matrix de defensa'], Vida: 306, Danno Principal: 600, Estado: True
+Índice: 5
+Datos del personaje:
+ID: 6, Nombre: Ana, Tipo: 3, Habilidades: ['Dardo biótico', 'Granada biótica'], Vida: -67, Danno Principal: 200, Estado: False
